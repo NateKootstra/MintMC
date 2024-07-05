@@ -1,0 +1,1 @@
+tellraw @a ["",{"text":"Generic item \"","color":"aqua"},{"text":"Coin","color":"gold"},{"text":"\" from ","color":"aqua"},{"text":"MintMC","underlined":true,"color":"green"},{"text":" initialized!","color":"aqua"}]

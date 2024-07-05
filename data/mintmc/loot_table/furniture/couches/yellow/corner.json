@@ -1,0 +1,29 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:blast_furnace",
+            "functions": [
+                {
+                    "function": "minecraft:set_components",
+                    "components" : {
+                        "custom_name" : "{ \"text\":\"Yellow Couch Corner\", \"color\":\"white\", \"italic\":false, \"bold\":false }",
+                        
+                        "custom_model_data" : 40070  ,
+                        
+                        "max_stack_size" : 64  , 
+
+                        "enchantment_glint_override" : false
+                    }
+                }
+            ]
+            
+          }
+        ]
+      }
+    ]
+  }
+  

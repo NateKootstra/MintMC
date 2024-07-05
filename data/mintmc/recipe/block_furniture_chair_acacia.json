@@ -1,0 +1,29 @@
+{
+    "type" : "crafting_shaped",
+    "category" : "misc",
+    "group" : "wood_chairs",
+    "show_notification" : true,
+    "pattern" : [
+        "0 ",
+        "0 ",
+        "00"
+    ],
+    "key" : {
+        "0" : {
+            "item" : "acacia_slab"
+        }
+    },
+    "result" : {
+        "id" : "blast_furnace",
+        "count" : 1,
+        "components" : {
+            "custom_name" : "{ \"text\":\"Acacia Chair\", \"color\":\"white\", \"italic\":false, \"bold\":false }",
+            
+            "custom_model_data" : 40028  ,
+            
+            "max_stack_size" : 64  , 
+
+            "enchantment_glint_override" : false
+        }
+    }
+}

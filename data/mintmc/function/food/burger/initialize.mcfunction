@@ -1,0 +1,1 @@
+tellraw @a ["",{"text":"Food item \"","color":"yellow"},{"text":"Burger","color":"gold"},{"text":"\" from ","color":"yellow"},{"text":"MintMC","underlined":true,"color":"green"},{"text":" initialized!","color":"yellow"}]

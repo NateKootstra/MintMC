@@ -1,0 +1,1 @@
+tellraw @a ["",{"text":"Miscellaneous feature \"","color":"blue"},{"text":"On First Join","color":"gold"},{"text":"\" from ","color":"blue"},{"text":"MintMC","underlined":true,"color":"green"},{"text":" initialized!","color":"blue"}]

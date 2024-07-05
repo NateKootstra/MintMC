@@ -1,0 +1,1 @@
+tellraw @a ["",{"text":"Tool item \"","color":"red"},{"text":"Villager Grabber","color":"gold"},{"text":"\" from ","color":"red"},{"text":"MintMC","underlined":true,"color":"green"},{"text":" initialized!","color":"red"}]
