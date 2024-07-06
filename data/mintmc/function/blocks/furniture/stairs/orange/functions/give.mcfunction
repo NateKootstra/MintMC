@@ -1,12 +1,12 @@
 give @p blast_furnace[\
     custom_name = '{\
-        "text" : "Green Stairs"  ,\
+        "text" : "Orange Stairs"  ,\
         "color" : "white"  ,\
         "italic" : false  ,\
         "bold" : false  \
     }',\
     \
-    custom_model_data = 40076  ,\
+    custom_model_data = 40081  ,\
     \
     max_stack_size = 64  ,\
     \

@@ -1,37 +1,37 @@
 execute if block ~ ~ ~ blast_furnace[facing=north] align xyz run summon armor_stand ~1 ~ ~ {\
     Tags : [\
-        "green_stairs"  \
+        "purple_stairs"  \
     ]\
 }
 execute if block ~ ~ ~ blast_furnace[facing=east] align xyz run summon armor_stand ~1 ~ ~1 {\
     Tags : [\
-        "green_stairs"  \
+        "purple_stairs"  \
     ],\
     Rotation : [90f]  \
 }
 execute if block ~ ~ ~ blast_furnace[facing=south] align xyz run summon armor_stand ~ ~ ~1 {\
     Tags : [\
-        "green_stairs"  \
+        "purple_stairs"  \
     ],\
     Rotation : [180f]  \
 }
 execute if block ~ ~ ~ blast_furnace[facing=west] align xyz run summon armor_stand ~ ~ ~ {\
     Tags : [\
-        "green_stairs"  \
+        "purple_stairs"  \
     ],\
     Rotation:[270f]  \
 }
 
 execute as @e[\
     type = armor_stand  ,\
-    tag = green_stairs  ,\
+    tag = purple_stairs  ,\
     limit = 1  ,\
     sort = nearest  \
-] at @s run function mintmc:blocks/furniture/stairs/green/functions/summon_hitboxes
+] at @s run function mintmc:blocks/furniture/stairs/purple/functions/summon_hitboxes
 
 kill @e[\
     type = armor_stand  ,\
-    tag = green_stairs  \
+    tag = purple_stairs  \
 ]
 
 
@@ -39,14 +39,14 @@ kill @e[\
 execute if block ~ ~ ~ blast_furnace[facing=north] align xyz positioned ~0.5 ~0.5 ~0.5 run summon minecraft:item_display ~ ~ ~ {\
     Tags : [\
         "custom_block"  ,\
-        "green_stairs"  \
+        "purple_stairs"  \
     ],\
     \
     item : {\
         id : "blast_furnace"  ,\
         Count : 1  ,\
         components : {\
-            custom_model_data : 40076  \
+            custom_model_data : 40083  \
         }\
     },\
     \
@@ -63,14 +63,14 @@ execute if block ~ ~ ~ blast_furnace[facing=north] align xyz positioned ~0.5 ~0.
 execute if block ~ ~ ~ blast_furnace[facing=east] align xyz positioned ~0.5 ~0.5 ~0.5 run summon minecraft:item_display ~ ~ ~ {\
     Tags : [\
         "custom_block"  ,\
-        "green_stairs"  \
+        "purple_stairs"  \
     ],\
     \
     item : {\
         id : "blast_furnace"  ,\
         Count : 1  ,\
         components : {\
-            custom_model_data : 40076  \
+            custom_model_data : 40083  \
         }\
     },\
     \
@@ -87,14 +87,14 @@ execute if block ~ ~ ~ blast_furnace[facing=east] align xyz positioned ~0.5 ~0.5
 execute if block ~ ~ ~ blast_furnace[facing=south] align xyz positioned ~0.5 ~0.5 ~0.5 run summon minecraft:item_display ~ ~ ~ {\
     Tags : [\
         "custom_block"  ,\
-        "green_stairs"  \
+        "purple_stairs"  \
     ],\
     \
     item : {\
         id : "blast_furnace"  ,\
         Count : 1  ,\
         components : {\
-            custom_model_data : 40076  \
+            custom_model_data : 40083  \
         }\
     },\
     \
@@ -111,14 +111,14 @@ execute if block ~ ~ ~ blast_furnace[facing=south] align xyz positioned ~0.5 ~0.
 execute if block ~ ~ ~ blast_furnace[facing=west] align xyz positioned ~0.5 ~0.5 ~0.5 run summon minecraft:item_display ~ ~ ~ {\
     Tags : [\
         "custom_block"  ,\
-        "green_stairs"  \
+        "purple_stairs"  \
     ],\
     \
     item : {\
         id : "blast_furnace"  ,\
         Count : 1  ,\
         components : {\
-            custom_model_data : 40076  \
+            custom_model_data : 40083  \
         }\
     },\
     \
@@ -135,7 +135,7 @@ execute if block ~ ~ ~ blast_furnace[facing=west] align xyz positioned ~0.5 ~0.5
 execute align xyz positioned ~0.5 ~0.625 ~0.5 run summon minecraft:item_display ~ ~ ~ {\
     Tags : [\
         "custom_block"  ,\
-        "green_stairs"  ,\
+        "purple_stairs"  ,\
         "seat"  \
     ]\
 }
@@ -149,7 +149,7 @@ setblock ~ ~ ~ air
 execute align xyz positioned ~0.5 ~-0.0005 ~0.5 run summon minecraft:interaction ~ ~ ~ {\
     Tags : [\
         "custom_block"  ,\
-        "green_stairs"  \
+        "purple_stairs"  \
     ],\
     \
     width : 1.001  ,\
