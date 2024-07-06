@@ -1,3 +1,41 @@
+execute if block ~ ~ ~ blast_furnace[facing=north] align xyz run summon armor_stand ~1 ~ ~ {\
+    Tags : [\
+        "black_stairs"  \
+    ]\
+}
+execute if block ~ ~ ~ blast_furnace[facing=east] align xyz run summon armor_stand ~1 ~ ~1 {\
+    Tags : [\
+        "black_stairs"  \
+    ],\
+    Rotation : [90f]  \
+}
+execute if block ~ ~ ~ blast_furnace[facing=south] align xyz run summon armor_stand ~ ~ ~1 {\
+    Tags : [\
+        "black_stairs"  \
+    ],\
+    Rotation : [180f]  \
+}
+execute if block ~ ~ ~ blast_furnace[facing=west] align xyz run summon armor_stand ~ ~ ~ {\
+    Tags : [\
+        "black_stairs"  \
+    ],\
+    Rotation:[270f]  \
+}
+
+execute as @e[\
+    type = armor_stand  ,\
+    tag = black_stairs  ,\
+    limit = 1  ,\
+    sort = nearest  \
+] at @s run function mintmc:blocks/furniture/couches/light_blue/edge/functions/summon_hitboxes
+
+kill @e[\
+    type = armor_stand  ,\
+    tag = black_stairs  \
+]
+
+
+
 execute if block ~ ~ ~ blast_furnace[facing=north] align xyz positioned ~0.5 ~0.5 ~0.5 run summon minecraft:item_display ~ ~ ~ {\
     Tags : [\
         "custom_block"  ,\
@@ -103,7 +141,7 @@ execute align xyz positioned ~0.5 ~0.625 ~0.5 run summon minecraft:item_display 
 }
 
 
-setblock ~ ~ ~ barrier
+setblock ~ ~ ~ air
 
 
 
