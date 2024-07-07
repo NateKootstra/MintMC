@@ -14,8 +14,14 @@ kill @e[\
     sort = nearest  \
 ]
 execute align xyz run tp @e[\
-    type = shulker  ,\
     tag = hitbox  ,\
+    dx = 0  ,\
+    dy = 0  ,\
+    dz = 0  \
+] 0 -10000 0
+execute align xyz positioned ~ ~-00.1 ~ run tp @e[\
+    tag = hitbox  ,\
+    type = item_display  ,\
     dx = 0  ,\
     dy = 0  ,\
     dz = 0  \

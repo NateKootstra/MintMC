@@ -16,7 +16,6 @@ kill @e[\
     sort = nearest  \
 ]
 execute align xyz run tp @e[\
-    type = shulker  ,\
     tag = hitbox  ,\
     dx = 0  ,\
     dy = 0  ,\
