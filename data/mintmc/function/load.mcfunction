@@ -4,10 +4,6 @@ tellraw @a ["",{"text":"MintMC","underlined":true,"color":"green"}," by ",{"text
 
 
 
-function mintmc:items/coin/initialize
-
-
-
 function mintmc:food/burger/initialize
 
 

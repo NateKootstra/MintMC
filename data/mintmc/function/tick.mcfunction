@@ -1,7 +1,3 @@
-function mintmc:items/coin/update
-
-
-
 function mintmc:food/burger/update
 
 
