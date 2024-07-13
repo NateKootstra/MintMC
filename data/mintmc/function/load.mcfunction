@@ -2,6 +2,10 @@ tellraw @a ["",{"text":"MintMC","underlined":true,"color":"green"}," by ",{"text
 
 
 
+function mintmc:accessories/rings/ruby/initialize
+function mintmc:accessories/rings/onyx/initialize
+function mintmc:accessories/rings/sapphire/initialize
+
 
 
 function mintmc:food/burger/initialize

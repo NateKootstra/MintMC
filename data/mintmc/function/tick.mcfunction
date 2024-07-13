@@ -1,3 +1,9 @@
+function mintmc:accessories/rings/ruby/update
+function mintmc:accessories/rings/onyx/update
+function mintmc:accessories/rings/sapphire/update
+
+
+
 function mintmc:food/burger/update
 
 
