@@ -2,6 +2,8 @@ function mintmc:accessories/rings/ruby/update
 function mintmc:accessories/rings/onyx/update
 function mintmc:accessories/rings/sapphire/update
 
+function mintmc:accessories/emblems/lightning/update
+
 
 
 function mintmc:food/burger/update
@@ -115,7 +117,6 @@ function mintmc:misc/on_first_join/update
 
 
 function mintmc:scores/damage_dealt/update
-function mintmc:scores/triggers/update
 
 
 

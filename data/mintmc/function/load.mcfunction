@@ -6,6 +6,7 @@ function mintmc:accessories/rings/ruby/initialize
 function mintmc:accessories/rings/onyx/initialize
 function mintmc:accessories/rings/sapphire/initialize
 
+function mintmc:accessories/emblems/lightning/initialize
 
 
 function mintmc:food/burger/initialize

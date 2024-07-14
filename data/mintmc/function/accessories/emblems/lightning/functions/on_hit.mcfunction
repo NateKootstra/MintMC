@@ -1,0 +1,1 @@
+execute if predicate mintmc:10_percent_chance run summon lightning_bolt

@@ -14,7 +14,7 @@ give @s clock[\
     \
     custom_model_data = 10001  ,\
     \
-    max_stack_size = 64  ,\
+    max_stack_size = 1  ,\
     \
     enchantment_glint_override = false  \
 ]

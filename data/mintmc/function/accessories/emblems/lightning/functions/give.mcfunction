@@ -1,6 +1,6 @@
 give @s clock[\
     custom_name = '{\
-        "text" : "Onyx Ring"  ,\
+        "text" : "Emblem of Lightning"  ,\
         "color" : "white"  ,\
         "italic" : false  ,\
         "bold" : false  \
@@ -8,11 +8,11 @@ give @s clock[\
     \
     lore = [\
         '{\
-            "text" : "Grants night vision."  \
+            "text" : "Chance to strike lightning on hit."  \
         }'\
     ],\
     \
-    custom_model_data = 10002  ,\
+    custom_model_data = 11001  ,\
     \
     max_stack_size = 1  ,\
     \
