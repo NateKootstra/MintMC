@@ -8,7 +8,7 @@ give @s clock[\
     \
     lore = [\
         '{\
-            "text" : "Chance to strike lightning on hit."  \
+            "text" : "10% chance to strike lightning on hit."  \
         }'\
     ],\
     \
