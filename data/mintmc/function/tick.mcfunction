@@ -3,6 +3,11 @@ function mintmc:accessories/rings/onyx/update
 function mintmc:accessories/rings/sapphire/update
 
 function mintmc:accessories/emblems/lightning/update
+function mintmc:accessories/emblems/blindness/update
+function mintmc:accessories/emblems/glowing/update
+function mintmc:accessories/emblems/levitation/update
+function mintmc:accessories/emblems/slowness/update
+function mintmc:accessories/emblems/weakness/update
 
 
 

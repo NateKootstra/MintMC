@@ -1,0 +1,1 @@
+execute if predicate mintmc:chance/20_percent run effect give @s weakness 5 0 false

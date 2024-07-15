@@ -1,0 +1,1 @@
+execute if predicate mintmc:chance/40_percent run effect give @s slowness 5 0 false

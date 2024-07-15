@@ -1,0 +1,1 @@
+execute if predicate mintmc:chance/30_percent run effect give @s blindness 5 0 false
