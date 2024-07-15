@@ -1,1 +1,1 @@
-execute if predicate mintmc:10_percent_chance run summon lightning_bolt
+execute if predicate mintmc:chance/15_percent run summon lightning_bolt
