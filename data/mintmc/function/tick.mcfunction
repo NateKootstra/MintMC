@@ -8,6 +8,7 @@ function mintmc:accessories/emblems/glowing/update
 function mintmc:accessories/emblems/levitation/update
 function mintmc:accessories/emblems/slowness/update
 function mintmc:accessories/emblems/weakness/update
+function mintmc:accessories/emblems/luck/update
 
 
 
