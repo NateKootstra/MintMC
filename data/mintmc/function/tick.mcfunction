@@ -114,9 +114,6 @@ function mintmc:blocks/furniture/stairs/yellow/update
 
 
 
-function mintmc:misc/world_border/update
-function mintmc:misc/location_alert/update
-function mintmc:misc/teams/update
 function mintmc:misc/on_first_join/update
 
 
