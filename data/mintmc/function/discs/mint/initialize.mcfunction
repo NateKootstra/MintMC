@@ -1,0 +1,1 @@
+tellraw @a ["",{"text":"Music disc item \"","color":"light_purple"},{"text":"Burger","color":"gold"},{"text":"\" from ","color":"light_purple"},{"text":"MintMC","underlined":true,"color":"green"},{"text":" initialized!","color":"light_purple"}]

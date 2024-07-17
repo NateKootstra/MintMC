@@ -1,0 +1,10 @@
+{
+  "comparator_output": 15,
+  "description": {
+    "translate": "Nate Kootstra - Mint"
+  },
+  "length_in_seconds": 92.0,
+  "sound_event": {
+    "sound_id" : "minecraft:music_disc.mint"
+  }
+}

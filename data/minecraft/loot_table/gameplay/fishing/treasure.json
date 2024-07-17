@@ -53,6 +53,10 @@
         {
           "type": "minecraft:loot_table",
           "value": "mintmc:pottery_sherds"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "mintmc:mint_discs"
         }
       ]
     }
