@@ -1,0 +1,1 @@
+attribute @s minecraft:generic.fall_damage_multiplier modifier add test -1 add_multiplied_total

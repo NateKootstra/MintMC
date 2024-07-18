@@ -13,6 +13,8 @@ function mintmc:accessories/emblems/slowness/update
 function mintmc:accessories/emblems/weakness/update
 function mintmc:accessories/emblems/luck/update
 
+function mintmc:accessories/artifacts/gilded_feather/update
+
 
 
 function mintmc:food/burger/update
