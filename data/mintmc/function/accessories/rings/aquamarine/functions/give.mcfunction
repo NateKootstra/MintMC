@@ -1,6 +1,6 @@
 give @s clock[\
     custom_name = '{\
-        "text" : "Ruby Ring"  ,\
+        "text" : "Aquamarine Ring"  ,\
         "color" : "white"  ,\
         "italic" : false  ,\
         "bold" : false  \
@@ -8,11 +8,11 @@ give @s clock[\
     \
     lore = [\
         '{\
-            "text" : "Grants health boost."  \
+            "text" : "Grants dolphin\'s grace."  \
         }'\
     ],\
     \
-    custom_model_data = 10001  ,\
+    custom_model_data = 10005  ,\
     \
     max_stack_size = 1  ,\
     \

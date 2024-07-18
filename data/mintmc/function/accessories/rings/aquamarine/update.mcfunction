@@ -1,0 +1,1 @@
+execute as @e if predicate mintmc:accessories/rings/aquamarine run function mintmc:accessories/rings/aquamarine/functions/on_tick

@@ -1,0 +1,1 @@
+execute as @e if predicate mintmc:accessories/rings/amber run function mintmc:accessories/rings/amber/functions/on_tick

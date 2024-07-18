@@ -1,6 +1,9 @@
 function mintmc:accessories/rings/ruby/update
 function mintmc:accessories/rings/onyx/update
 function mintmc:accessories/rings/sapphire/update
+function mintmc:accessories/rings/amber/update
+function mintmc:accessories/rings/aquamarine/update
+function mintmc:accessories/rings/topaz/update
 
 function mintmc:accessories/emblems/lightning/update
 function mintmc:accessories/emblems/blindness/update
