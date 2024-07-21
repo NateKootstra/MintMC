@@ -1,4 +1,4 @@
-give @s clock[\
+give @s beetroot_soup[\
     custom_name = '{\
         "text" : "Burger"  ,\
         "color" : "white"  ,\

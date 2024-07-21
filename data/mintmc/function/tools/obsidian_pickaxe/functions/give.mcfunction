@@ -1,4 +1,5 @@
-give @s clock[\
+give @s beetroot_soup[\
+    !minecraft:food  ,\
     custom_name = '{\
         "text" : "Obsidian Pickaxe"  ,\
         "color" : "white"  ,\

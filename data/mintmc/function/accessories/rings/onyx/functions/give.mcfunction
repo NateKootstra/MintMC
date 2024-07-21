@@ -1,7 +1,8 @@
-give @s clock[\
+give @s beetroot_soup[\
+    !minecraft:food  ,\
     custom_name = '{\
         "text" : "Onyx Ring"  ,\
-        "color" : "white"  ,\
+        "color" : "red"  ,\
         "italic" : false  ,\
         "bold" : false  \
     }',\
