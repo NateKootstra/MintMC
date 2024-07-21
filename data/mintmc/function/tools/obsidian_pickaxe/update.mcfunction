@@ -2,7 +2,7 @@ execute as @a[\
     nbt={\
         SelectedItem:{\
             components: {\
-                "minecraft:custom_model_data" : 30001  \
+                "minecraft:custom_model_data" : 30002  \
             }\
         }\
     }\

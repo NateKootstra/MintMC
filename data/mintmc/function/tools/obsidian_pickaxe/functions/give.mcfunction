@@ -9,11 +9,26 @@ give @s beetroot_soup[\
     \
     lore = [\
         '{\
-            "text" : "A test tool item for my pack."  \
+            "text" : ""  \
+        }',\
+        '{\
+            "text" : "When in Main Hand:"  ,\
+            "italic" : false  ,\
+            "color" : gray  \
+        }',\
+        '{\
+            "text" : " 5 Attack Damage"  ,\
+            "italic" : false  ,\
+            "color" : dark_green  \
+        }',\
+        '{\
+            "text" : " 1.2 Attack Speed"  ,\
+            "italic" : false  ,\
+            "color" : dark_green  \
         }'\
     ],\
     \
-    custom_model_data = 30001  ,\
+    custom_model_data = 30002  ,\
     \
     max_stack_size = 1  ,\
     \
@@ -29,6 +44,26 @@ give @s beetroot_soup[\
                 correct_for_drops : true  \
             }\
         ]\
+    },\
+    \
+    attribute_modifiers = {\
+        modifiers : [\
+            {\
+                type : "generic.attack_damage"  ,\
+                amount : 4  ,\
+                slot : mainhand  ,\
+                operation : add_value  ,\
+                id : obsidian_pickaxe  \
+            },\
+            {\
+                type : "generic.attack_speed"  ,\
+                amount : -2.8  ,\
+                slot : mainhand  ,\
+                operation : add_value  ,\
+                id : obsidian_pickaxe  \
+            }\
+        ],\
+        show_in_tooltip : false  \
     },\
     \
     max_damage = 3000  ,\
