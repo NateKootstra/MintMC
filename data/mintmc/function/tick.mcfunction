@@ -122,6 +122,8 @@ function mintmc:blocks/furniture/stairs/yellow/update
 
 function mintmc:misc/on_first_join/update
 
+function mintmc:misc/villager_rework/update
+
 
 
 function mintmc:scores/damage_dealt/update
