@@ -18,10 +18,3 @@ execute as @e[\
     type = interaction  ,\
     tag = yellow_couch_corner  \
 ] run data remove entity @s interaction
-
-execute as @a at @s anchored eyes positioned ^ ^ ^5 align xyz run function mintmc:blocks/furniture/couches/yellow/corner/functions/replace_block_entity
-execute as @a at @s anchored eyes positioned ^ ^ ^4 align xyz run function mintmc:blocks/furniture/couches/yellow/corner/functions/replace_block_entity
-execute as @a at @s anchored eyes positioned ^ ^ ^3 align xyz run function mintmc:blocks/furniture/couches/yellow/corner/functions/replace_block_entity
-execute as @a at @s anchored eyes positioned ^ ^ ^2 align xyz run function mintmc:blocks/furniture/couches/yellow/corner/functions/replace_block_entity
-execute as @a at @s anchored eyes positioned ^ ^ ^1 align xyz run function mintmc:blocks/furniture/couches/yellow/corner/functions/replace_block_entity
-execute as @a at @s anchored eyes positioned ^ ^ ^0 align xyz run function mintmc:blocks/furniture/couches/yellow/corner/functions/replace_block_entity

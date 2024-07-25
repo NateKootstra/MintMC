@@ -1,1 +1,1 @@
-execute as @e if predicate mintmc:accessories/rings/sapphire run function mintmc:accessories/rings/sapphire/functions/on_tick
+execute as @a if predicate mintmc:accessories/rings/sapphire run function mintmc:accessories/rings/sapphire/functions/on_tick

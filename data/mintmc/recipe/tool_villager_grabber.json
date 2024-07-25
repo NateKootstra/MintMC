@@ -31,7 +31,15 @@
             
             "max_stack_size" : 1,
             
-            "enchantment_glint_override" : false
+            "enchantment_glint_override" : false,
+            
+            "entity_data" : {
+                "id" : "bat",
+                "NoAI" : true,
+                "Tags" : [
+                    "kumkolesi"
+                ]
+            }
         }
     }
 }

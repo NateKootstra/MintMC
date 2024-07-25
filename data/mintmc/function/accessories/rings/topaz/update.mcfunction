@@ -1,1 +1,1 @@
-execute as @e if predicate mintmc:accessories/rings/topaz run function mintmc:accessories/rings/topaz/functions/on_tick
+execute as @a if predicate mintmc:accessories/rings/topaz run function mintmc:accessories/rings/topaz/functions/on_tick

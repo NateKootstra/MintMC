@@ -1,1 +1,1 @@
-execute as @e if predicate mintmc:accessories/rings/onyx run function mintmc:accessories/rings/onyx/functions/on_tick
+execute as @a if predicate mintmc:accessories/rings/onyx run function mintmc:accessories/rings/onyx/functions/on_tick
