@@ -14,17 +14,17 @@ give @s beetroot_soup[\
         '{\
             "text" : "When in Main Hand:"  ,\
             "italic" : false  ,\
-            "color" : gray  \
+            "color" : "gray"  \
         }',\
         '{\
             "text" : " 5 Attack Damage"  ,\
             "italic" : false  ,\
-            "color" : dark_green  \
+            "color" : "dark_green"  \
         }',\
         '{\
             "text" : " 1.2 Attack Speed"  ,\
             "italic" : false  ,\
-            "color" : dark_green  \
+            "color" : "dark_green"  \
         }'\
     ],\
     \
