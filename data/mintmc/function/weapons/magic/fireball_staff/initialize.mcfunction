@@ -1,0 +1,1 @@
+tellraw @a ["",{"text":"Weapon item \"","color":"red"},{"text":"Fireball Staff","color":"gold"},{"text":"\" from ","color":"red"},{"text":"MintMC","underlined":true,"color":"green"},{"text":" initialized!","color":"red"}]

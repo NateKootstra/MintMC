@@ -1,7 +1,7 @@
 give @s beetroot_soup[\
     !minecraft:food  ,\
     custom_name = '{\
-        "text" : "Obsidian Pickaxe"  ,\
+        "text" : "Emerald Pickaxe"  ,\
         "color" : "white"  ,\
         "italic" : false  ,\
         "bold" : false  \
@@ -28,7 +28,7 @@ give @s beetroot_soup[\
         }'\
     ],\
     \
-    custom_model_data = 30002  ,\
+    custom_model_data = 30004  ,\
     \
     max_stack_size = 1  ,\
     \
@@ -53,20 +53,20 @@ give @s beetroot_soup[\
                 amount : 4  ,\
                 slot : mainhand  ,\
                 operation : add_value  ,\
-                id : obsidian_pickaxe  \
+                id : emerald_pickaxe  \
             },\
             {\
                 type : "generic.attack_speed"  ,\
                 amount : -2.8  ,\
                 slot : mainhand  ,\
                 operation : add_value  ,\
-                id : obsidian_pickaxe  \
+                id : emerald_pickaxe  \
             }\
         ],\
         show_in_tooltip : false  \
     },\
     \
-    max_damage = 3000  ,\
+    max_damage = 1000  ,\
     \
     damage = 0  \
 ]

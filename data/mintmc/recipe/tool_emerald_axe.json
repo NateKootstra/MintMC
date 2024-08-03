@@ -1,16 +1,16 @@
 {
     "type" : "crafting_shaped",
     "category" : "equipment",
-    "group" : "obsidian_pickaxe",
+    "group" : "emerald_axe",
     "show_notification" : true,
     "pattern" : [
-        "000",
-        " 1 ",
-        " 1 "
+        "00",
+        "01",
+        " 1"
     ],
     "key" : {
         "0" : {
-            "item" : "obsidian"
+            "item" : "emerald"
         },
         "1" : {
             "item" : "stick"
@@ -20,13 +20,15 @@
         "id" : "beetroot_soup",
         "count" : 1,
         "components" : {
-            "custom_name" : "{ \"text\" : \"Obsidian Pickaxe\", \"color\" : \"white\", \"italic\" : false, \"bold\" : false }",
+            "!food" : {},
+            
+            "custom_name" : "{ \"text\" : \"Emerald Axe\", \"color\" : \"white\", \"italic\" : false, \"bold\" : false }",
 
             "lore" : [
                 "{ \"text\" : \"\" }",
-                "{ \"text\" : \"When in Main Hand:\", \"italic\" : false, \"color\" : gray }",
-                "{ \"text\" : \" 5 Attack Damage\", \"italic\" : false, \"color\" : dark_green }",
-                "{ \"text\" : \" 1.2 Attack Speed\", \"italic\" : false, \"color\" : dark_green }"
+                "{ \"text\" : \"When in Main Hand:\", \"italic\" : false, \"color\" : \"gray\" }",
+                "{ \"text\" : \" 9 Attack Damage\", \"italic\" : false, \"color\" : \"dark_green\" }",
+                "{ \"text\" : \" 1 Attack Speed\", \"italic\" : false, \"color\" : \"dark_green\" }"
             ],
             
             "custom_model_data" : 30002,
@@ -40,7 +42,7 @@
                 "damage_per_block" : 1, 
                 "rules" : [
                     {
-                        "blocks" : "#mineable/pickaxe",
+                        "blocks" : "#mineable/axe",
                         "speed" : 7,
                         "correct_for_drops" : true  
                     }
@@ -51,23 +53,23 @@
                 "modifiers" : [
                     {
                         "type" : "generic.attack_damage",
-                        "amount" : 4,
+                        "amount" : 8,
                         "slot" : "mainhand",
                         "operation" : "add_value",
-                        "id" : "obsidian_pickaxe"
+                        "id" : "emerald_axe"
                     },
                     {
                         "type" : "generic.attack_speed",
-                        "amount" : -2.8,
+                        "amount" : -3,
                         "slot" : "mainhand",
                         "operation" : "add_value",
-                        "id" : "obsidian_pickaxe"  
+                        "id" : "emerald_axe"  
                     }
                 ],
                 "show_in_tooltip" : false  
             },
 
-            "max_damage" : 3000,
+            "max_damage" : 1000,
 
             "damage" : 0
         }

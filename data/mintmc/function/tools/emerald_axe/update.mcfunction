@@ -1,4 +1,4 @@
-data modify storage mintmc:data parameters set value {damageAmount:1,maxDamage:3000,unbreaking:true}
+data modify storage mintmc:data parameters set value {damageAmount:1,maxDamage:1000,unbreaking:true}
 
 execute as @a[\
     nbt={\

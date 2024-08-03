@@ -21,8 +21,16 @@ function mintmc:food/burger/update
 
 
 
-function mintmc:tools/obsidian_pickaxe/update
+function mintmc:weapons/magic/fireball_staff/update
+
+
+
 function mintmc:tools/villager_grabber/update
+function mintmc:tools/emerald_axe/update
+function mintmc:tools/emerald_hoe/update
+function mintmc:tools/emerald_pickaxe/update
+function mintmc:tools/emerald_shovel/update
+function mintmc:tools/emerald_sword/update
 
 
 
@@ -127,6 +135,7 @@ function mintmc:misc/villager_rework/update
 
 
 function mintmc:scores/damage_dealt/update
+function mintmc:scores/magic_cooldown/update
 
 
 

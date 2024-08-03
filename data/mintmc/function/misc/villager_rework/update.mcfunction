@@ -1,3 +1,4 @@
+function mintmc:misc/villager_rework/villagers/armorer
 function mintmc:misc/villager_rework/villagers/butcher
 function mintmc:misc/villager_rework/villagers/cartographer
 function mintmc:misc/villager_rework/villagers/fisherman

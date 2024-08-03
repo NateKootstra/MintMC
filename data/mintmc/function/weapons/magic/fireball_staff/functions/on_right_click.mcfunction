@@ -1,0 +1,2 @@
+execute if score @s magic_cooldown matches -1 run function mintmc:weapons/magic/fireball_staff/functions/spell
+execute if score @s magic_cooldown matches -1 run scoreboard players set @s magic_cooldown 100

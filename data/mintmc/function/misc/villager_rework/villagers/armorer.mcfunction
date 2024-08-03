@@ -1,4 +1,4 @@
-execute as @e[type=villager,nbt={VillagerData : {profession : "minecraft:butcher"}}] run data modify entity @s Offers.Recipes[\
+execute as @e[type=villager,nbt={VillagerData : {profession : "minecraft:armorer"}}] run data modify entity @s Offers.Recipes[\
     {\
         sell : {\
             id : "minecraft:chainmail_leggings"  \
@@ -7,13 +7,33 @@ execute as @e[type=villager,nbt={VillagerData : {profession : "minecraft:butcher
 ] set value {\
     buy : {\
         id : "minecraft:emerald"  ,\
+        count : 3  \
+    },\
+    sell : {\
+        id : "minecraft:golden_leggings"  ,\
+        count : 1  \
+    },\
+    xp : 5  ,\
+    priceMultiplier : 0.2f  ,\
+    maxUses : 12  \
+}
+
+execute as @e[type=villager,nbt={VillagerData : {profession : "minecraft:armorer"}}] run data modify entity @s Offers.Recipes[\
+    {\
+        sell : {\
+            id : "minecraft:chainmail_boots"  \
+        }\
+    }\
+] set value {\
+    buy : {\
+        id : "minecraft:emerald"  ,\
         count : 1  \
     },\
     sell : {\
-        id : "minecraft:cooked_beef"  ,\
-        count : 5  \
+        id : "minecraft:golden_boots"  ,\
+        count : 1  \
     },\
     xp : 5  ,\
-    priceMultiplier : 0.05f  ,\
-    maxUses : 16  \
+    priceMultiplier : 0.2f  ,\
+    maxUses : 12  \
 }
