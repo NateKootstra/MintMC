@@ -1,3 +1,7 @@
+function mintmc:scores/magic_power/update
+
+
+
 function mintmc:accessories/rings/ruby/update
 function mintmc:accessories/rings/onyx/update
 function mintmc:accessories/rings/sapphire/update
@@ -136,8 +140,3 @@ function mintmc:misc/villager_rework/update
 
 function mintmc:scores/damage_dealt/update
 function mintmc:scores/magic_cooldown/update
-function mintmc:scores/magic_power/update
-
-
-
-

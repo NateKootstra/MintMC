@@ -8,7 +8,7 @@ give @s beetroot_soup[\
     \
     lore = [\
         '{\
-            "text" : "Summons a fireball"  ,\
+            "text" : "Launches a fireball."  ,\
             "italic" : false  ,\
             "color" : "white"  \
         }',\
@@ -16,7 +16,7 @@ give @s beetroot_soup[\
             "text" : ""  \
         }',\
         '{\
-            "text" : "Magic weapon:"  ,\
+            "text" : "Magic Weapon:"  ,\
             "italic" : false  ,\
             "color" : "dark_purple"  \
         }',\
@@ -28,7 +28,22 @@ give @s beetroot_soup[\
         '{\
             "text" : " 5 Second Cooldown"  ,\
             "italic" : false  ,\
-            "color" : "light_purple"  \
+            "color" : "aqua"  \
+        }',\
+        '{\
+            "text" : " Projectile:"  ,\
+            "italic" : false  ,\
+            "color" : "green"  \
+        }',\
+        '{\
+            "text" : "  2 Speed"  ,\
+            "italic" : false  ,\
+            "color" : "yellow"  \
+        }',\
+        '{\
+            "text" : "  5 Blast Radius"  ,\
+            "italic" : false  ,\
+            "color" : "yellow"  \
         }'\
     ],\
     \
