@@ -1,1 +1,0 @@
-scoreboard players set @a magic_damage 0

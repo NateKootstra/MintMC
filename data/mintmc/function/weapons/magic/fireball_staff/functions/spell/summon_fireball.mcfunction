@@ -18,5 +18,5 @@ $execute anchored eyes positioned ^ ^-0.1 ^1 run summon snowball ~ ~ ~ {\
     ]\
 }
 
-execute store result storage mintmc:data magic_damage int 1 run scoreboard players get @s magic_damage
+execute store result storage mintmc:data magic_power int 1 run scoreboard players get @s magic_power
 execute anchored eyes positioned ^ ^-0.1 ^1 as @e[type=marker,tag=fireball_staff,limit=1,sort=nearest] run function mintmc:weapons/magic/fireball_staff/functions/spell/attach_data with storage mintmc:data

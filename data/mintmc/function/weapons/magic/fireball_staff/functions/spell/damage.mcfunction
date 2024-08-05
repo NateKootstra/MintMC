@@ -1,1 +1,1 @@
-$damage @s $(magic_damage) magic
+$damage @s $(magic_power) magic
