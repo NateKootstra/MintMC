@@ -21,7 +21,7 @@ give @s beetroot_soup[\
             "color" : "dark_purple"  \
         }',\
         '{\
-            "text" : " 6 Magic Damage"  ,\
+            "text" : " 1 + 100% Magic Damage"  ,\
             "italic" : false  ,\
             "color" : "light_purple"  \
         }',\

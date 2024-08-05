@@ -1,0 +1,1 @@
+$damage @s $(magic_damage) magic

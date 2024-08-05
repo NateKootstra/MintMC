@@ -1,1 +1,0 @@
-execute anchored eyes positioned ^ ^-0.5 ^1 run summon fireball ~ ~ ~ {ExplosionPower:0}

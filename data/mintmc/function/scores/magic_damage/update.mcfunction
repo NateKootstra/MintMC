@@ -1,0 +1,1 @@
+scoreboard players set @a magic_damage 17
