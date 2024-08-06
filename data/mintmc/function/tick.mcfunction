@@ -140,3 +140,4 @@ function mintmc:misc/villager_rework/update
 
 function mintmc:scores/damage_dealt/update
 function mintmc:scores/magic_cooldown/update
+function mintmc:scores/lifetime/update
