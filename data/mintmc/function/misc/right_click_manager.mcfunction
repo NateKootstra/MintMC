@@ -19,3 +19,13 @@ execute if entity @s[\
         }\
     }\
 ] run function mintmc:weapons/magic/ice_beam_staff/functions/on_right_click
+
+execute if entity @s[\
+    nbt={\
+        SelectedItem:{\
+            components: {\
+                "minecraft:custom_model_data" : 60003  \
+            }\
+        }\
+    }\
+] run function mintmc:weapons/magic/void_staff/functions/on_right_click

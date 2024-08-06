@@ -1,0 +1,2 @@
+particle dust{color:[0,0,0],scale:1} ~ ~ ~ 3 3 3 0 100000 force
+execute as @e[type=#mintmc:living, distance=0.1..4] run function mintmc:weapons/magic/void_staff/functions/spell/payload with storage mintmc:data

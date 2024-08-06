@@ -1,6 +1,6 @@
 give @s beetroot_soup[\
     custom_name = '{\
-        "text" : "Fireball Staff"  ,\
+        "text" : "Void Staff"  ,\
         "color" : "red"  ,\
         "italic" : false  ,\
         "bold" : false  \
@@ -8,7 +8,7 @@ give @s beetroot_soup[\
     \
     lore = [\
         '{\
-            "text" : "Launches a fireball."  ,\
+            "text" : "Releases an antimatter cloud."  ,\
             "italic" : false  ,\
             "color" : "white"  \
         }',\
@@ -21,27 +21,32 @@ give @s beetroot_soup[\
             "color" : "dark_purple"  \
         }',\
         '{\
-            "text" : " 1 + 100% Magic Damage"  ,\
+            "text" : " 100% Magic Damage"  ,\
             "italic" : false  ,\
             "color" : "light_purple"  \
         }',\
         '{\
-            "text" : " 5 Second Cooldown"  ,\
+            "text" : " 10 Second Cooldown"  ,\
             "italic" : false  ,\
             "color" : "aqua"  \
         }',\
         '{\
-            "text" : " Projectile:"  ,\
+            "text" : " Area of effect:"  ,\
             "italic" : false  ,\
             "color" : "green"  \
         }',\
         '{\
-            "text" : "  2 Speed"  ,\
+            "text" : "  2s Slowness 100% on Hit"  ,\
             "italic" : false  ,\
             "color" : "yellow"  \
         }',\
         '{\
-            "text" : "  5 Block Radius"  ,\
+            "text" : "  2s Wither 100% on Hit"  ,\
+            "italic" : false  ,\
+            "color" : "yellow"  \
+        }',\
+        '{\
+            "text" : "  4 Block Radius"  ,\
             "italic" : false  ,\
             "color" : "yellow"  \
         }'\
@@ -55,7 +60,7 @@ give @s beetroot_soup[\
         effects : []  \
     },\
     \
-    custom_model_data = 60001  ,\
+    custom_model_data = 60003  ,\
     \
     max_stack_size = 1  ,\
     \

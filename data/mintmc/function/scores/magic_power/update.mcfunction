@@ -1,1 +1,1 @@
-scoreboard players set @a magic_power 0
+scoreboard players set @a magic_power 1

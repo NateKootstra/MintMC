@@ -36,12 +36,12 @@ give @s beetroot_soup[\
             "color" : "green"  \
         }',\
         '{\
-            "text" : "  2 + 100% Slowness 2 on Hit"  ,\
+            "text" : "  2s + 100% Slowness 2 on Hit"  ,\
             "italic" : false  ,\
             "color" : "yellow"  \
         }',\
         '{\
-            "text" : "  2 + 100% Weakness 1 on Hit"  ,\
+            "text" : "  2s + 100% Weakness 1 on Hit"  ,\
             "italic" : false  ,\
             "color" : "yellow"  \
         }'\
