@@ -21,8 +21,6 @@ give @s beetroot_soup[\
     food = {\
         nutrition : 20  ,\
         saturation : 10  ,\
-        eat_seconds : 1.6  ,\
-        can_always_eat : false  ,\
-        effects : []  \
+        can_always_eat : false  \
     }\
 ]

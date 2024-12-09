@@ -1,14 +1,10 @@
 {
   "values": [
     "#minecraft:air",
-
     "#minecraft:crops",
     "#minecraft:flowers",
     "#minecraft:saplings",
     "#minecraft:leaves",
-
-
-
     "minecraft:bamboo",
     "#minecraft:banners",
     "#minecraft:buttons",

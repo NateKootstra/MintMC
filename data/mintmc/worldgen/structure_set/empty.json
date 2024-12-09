@@ -1,10 +1,10 @@
 {
-    "structures": [],
-    "placement": {
-      "type": "minecraft:random_spread",
-      "salt": 0,
-      "frequency": 0,
-      "spacing": 10,
-      "separation": 5
-    }
-}  
+  "structures": [],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 0,
+    "frequency": 0,
+    "spacing": 10,
+    "separation": 5
+  }
+}

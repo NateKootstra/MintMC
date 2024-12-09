@@ -1,27 +1,23 @@
 {
-    "type" : "crafting_shapeless",
-    "category" : "building",
-    "group" : "coloured_bricks",
-    "show_notification" : true,
-    "ingredients" : [
+    "type": "crafting_shapeless",
+    "category": "building",
+    "group": "coloured_bricks",
+    "ingredients": [
         {
-            "item" : "bricks"
+            "item": "bricks"
         },
         {
-            "item" : "black_dye"
+            "item": "black_dye"
         }
     ],
-    "result" : {
-        "id" : "blast_furnace",
-        "count" : 1,
-        "components" : {
-            "custom_name" : "{ \"text\":\"Black Bricks\", \"color\":\"white\", \"italic\":false, \"bold\":false }",
-            
-            "custom_model_data" : 40001  ,
-            
-            "max_stack_size" : 64  , 
-
-            "enchantment_glint_override" : false
+    "result": {
+        "id": "blast_furnace",
+        "count": 1,
+        "components": {
+            "custom_name": "{ \"text\":\"Black Bricks\", \"color\":\"white\", \"italic\":false, \"bold\":false }",
+            "custom_model_data": 40001,
+            "max_stack_size": 64,
+            "enchantment_glint_override": false
         }
     }
 }

@@ -47,12 +47,10 @@ give @s beetroot_soup[\
         }'\
     ],\
     \
-    food = {\
-        nutrition : 0  ,\
-        saturation : 0.0  ,\
-        eat_seconds : 2147483647  ,\
-        can_always_eat : true  ,\
-        effects : []  \
+    consumable = {\
+        consume_seconds : 2147483647 ,\
+        animation : none  ,\
+        has_consume_particles : false  \
     },\
     \
     custom_model_data = 60002  ,\

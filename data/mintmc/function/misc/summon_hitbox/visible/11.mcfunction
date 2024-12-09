@@ -17,7 +17,7 @@ summon item_display ~ ~ ~ {\
             Silent : 1b  ,\
             attributes : [\
                 {\
-                    id : "generic.scale"  ,\
+                    id : "scale"  ,\
                     base : 0.6875  \
                 }\
             ],\

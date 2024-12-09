@@ -1,44 +1,44 @@
 {
-    "condition": "minecraft:any_of",
-    "terms": [
-      {
-        "condition": "minecraft:entity_properties",
-        "entity": "this",
-        "predicate": {
-          "slots": {
-            "container.9": {
-              "components": {
-                "custom_model_data": 10006
-              }
-            }
-          }
-        }
-      },
-      {
-        "condition": "minecraft:entity_properties",
-        "entity": "this",
-        "predicate": {
-          "slots": {
-            "container.10": {
-              "components": {
-                "custom_model_data": 10006
-              }
-            }
-          }
-        }
-      },
-      {
-        "condition": "minecraft:entity_properties",
-        "entity": "this",
-        "predicate": {
-          "slots": {
-            "container.11": {
-              "components": {
-                "custom_model_data": 10006
-              }
+  "condition": "minecraft:any_of",
+  "terms": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "slots": {
+          "container.9": {
+            "components": {
+              "custom_model_data": 10006
             }
           }
         }
       }
-    ]
-  }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "slots": {
+          "container.10": {
+            "components": {
+              "custom_model_data": 10006
+            }
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "slots": {
+          "container.11": {
+            "components": {
+              "custom_model_data": 10006
+            }
+          }
+        }
+      }
+    }
+  ]
+}

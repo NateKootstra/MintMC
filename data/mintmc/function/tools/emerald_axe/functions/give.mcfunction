@@ -49,14 +49,14 @@ give @s beetroot_soup[\
     attribute_modifiers = {\
         modifiers : [\
             {\
-                type : "generic.attack_damage"  ,\
+                type : "attack_damage"  ,\
                 amount : 8  ,\
                 slot : mainhand  ,\
                 operation : add_value  ,\
                 id : emerald_axe  \
             },\
             {\
-                type : "generic.attack_speed"  ,\
+                type : "attack_speed"  ,\
                 amount : -3  ,\
                 slot : mainhand  ,\
                 operation : add_value  ,\

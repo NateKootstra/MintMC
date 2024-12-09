@@ -1,7 +1,6 @@
 {
   "values": [
     "minecraft:player",
-
     "minecraft:allay",
     "minecraft:armadillo",
     "minecraft:axolotl",
@@ -34,7 +33,6 @@
     "minecraft:turtle",
     "minecraft:villager",
     "minecraft:wandering_trader",
-
     "minecraft:bee",
     "minecraft:cave_spider",
     "minecraft:dolphin",
@@ -51,7 +49,6 @@
     "minecraft:trader_llama",
     "minecraft:wolf",
     "minecraft:zombified_piglin",
-    
     "minecraft:blaze",
     "minecraft:bogged",
     "minecraft:breeze",
