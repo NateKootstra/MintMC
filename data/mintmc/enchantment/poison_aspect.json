@@ -9,7 +9,7 @@
         "affected": "victim",
         "effect": {
           "type": "minecraft:apply_mob_effect",
-          "to_apply" : "minecraft:poison",
+          "to_apply": "minecraft:poison",
           "min_duration": {
             "type": "minecraft:linear",
             "base": 6.0,

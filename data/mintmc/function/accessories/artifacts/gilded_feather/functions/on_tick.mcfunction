@@ -1,1 +1,1 @@
-attribute @s minecraft:generic.fall_damage_multiplier modifier add gilded_feather -1 add_multiplied_total
+attribute @s fall_damage_multiplier modifier add gilded_feather -1 add_multiplied_total

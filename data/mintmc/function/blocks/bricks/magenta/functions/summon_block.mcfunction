@@ -9,7 +9,7 @@ execute align xyz positioned ~0.5 ~1.5 ~0.5 run summon minecraft:item_display ~ 
     \
     item : {\
         id : "blast_furnace"  ,\
-        Count : 1  ,\
+        count : 1  ,\
         components : {\
             custom_model_data : 40010  \
         }\
@@ -33,7 +33,7 @@ execute align xyz positioned ~0.5 ~-0.5 ~0.5 run summon minecraft:item_display ~
     \
     item : {\
         id : "blast_furnace"  ,\
-        Count : 1  ,\
+        count : 1  ,\
         components : {\
             custom_model_data : 40010  \
         }\
@@ -57,7 +57,7 @@ execute align xyz positioned ~0.5 ~0.5 ~-0.5 run summon minecraft:item_display ~
     \
     item : {\
         id : "blast_furnace"  ,\
-        Count : 1  ,\
+        count : 1  ,\
         components : {\
             custom_model_data : 40010  \
         }\
@@ -81,7 +81,7 @@ execute align xyz positioned ~1.5 ~0.5 ~0.5 run summon minecraft:item_display ~ 
     \
     item : {\
         id : "blast_furnace"  ,\
-        Count : 1  ,\
+        count : 1  ,\
         components : {\
             custom_model_data : 40010  \
         }\
@@ -105,7 +105,7 @@ execute align xyz positioned ~0.5 ~0.5 ~1.5 run summon minecraft:item_display ~ 
     \
     item : {\
         id : "blast_furnace"  ,\
-        Count : 1  ,\
+        count : 1  ,\
         components : {\
             custom_model_data : 40010  \
         }\
@@ -129,7 +129,7 @@ execute align xyz positioned ~-0.5 ~0.5 ~0.5 run summon minecraft:item_display ~
     \
     item : {\
         id : "blast_furnace"  ,\
-        Count : 1  ,\
+        count : 1  ,\
         components : {\
             custom_model_data : 40010  \
         }\

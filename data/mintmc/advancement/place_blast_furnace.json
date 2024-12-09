@@ -1,20 +1,20 @@
 {
-    "criteria": {
-      "requirement": {
-        "trigger": "minecraft:placed_block",
-        "conditions": {
-          "player": [],
-          "location": [
-            {
-              "condition": "minecraft:block_state_property",
-              "block": "minecraft:blast_furnace",
-              "properties": {}
-            }
-          ]
-        }
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "player": [],
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:blast_furnace",
+            "properties": {}
+          }
+        ]
       }
-    },
-    "rewards": {
-      "function": "mintmc:advancements/place_block"
     }
+  },
+  "rewards": {
+    "function": "mintmc:advancements/place_block"
+  }
 }

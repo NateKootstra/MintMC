@@ -7,19 +7,19 @@ execute if block ~ ~ ~ blast_furnace[facing=east] align xyz run summon armor_sta
     Tags : [\
         "purple_stairs"  \
     ],\
-    Rotation : [90f]  \
+    Rotation : [90f, 0f]  \
 }
 execute if block ~ ~ ~ blast_furnace[facing=south] align xyz run summon armor_stand ~ ~ ~1 {\
     Tags : [\
         "purple_stairs"  \
     ],\
-    Rotation : [180f]  \
+    Rotation : [180f, 0f]  \
 }
 execute if block ~ ~ ~ blast_furnace[facing=west] align xyz run summon armor_stand ~ ~ ~ {\
     Tags : [\
         "purple_stairs"  \
     ],\
-    Rotation:[270f]  \
+    Rotation:[270f, 0f]  \
 }
 
 execute as @e[\
@@ -44,7 +44,7 @@ execute if block ~ ~ ~ blast_furnace[facing=north] align xyz positioned ~0.5 ~0.
     \
     item : {\
         id : "blast_furnace"  ,\
-        Count : 1  ,\
+        count : 1  ,\
         components : {\
             custom_model_data : 40083  \
         }\
@@ -68,7 +68,7 @@ execute if block ~ ~ ~ blast_furnace[facing=east] align xyz positioned ~0.5 ~0.5
     \
     item : {\
         id : "blast_furnace"  ,\
-        Count : 1  ,\
+        count : 1  ,\
         components : {\
             custom_model_data : 40083  \
         }\
@@ -92,7 +92,7 @@ execute if block ~ ~ ~ blast_furnace[facing=south] align xyz positioned ~0.5 ~0.
     \
     item : {\
         id : "blast_furnace"  ,\
-        Count : 1  ,\
+        count : 1  ,\
         components : {\
             custom_model_data : 40083  \
         }\
@@ -116,7 +116,7 @@ execute if block ~ ~ ~ blast_furnace[facing=west] align xyz positioned ~0.5 ~0.5
     \
     item : {\
         id : "blast_furnace"  ,\
-        Count : 1  ,\
+        count : 1  ,\
         components : {\
             custom_model_data : 40083  \
         }\

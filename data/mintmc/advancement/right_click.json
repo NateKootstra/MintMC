@@ -1,23 +1,21 @@
 {
-    "criteria": {
-      "requirement": {
-        "trigger": "minecraft:using_item",
-        "conditions": {
-          "item": {
-            "components": {
-              "minecraft:food": {
-                "nutrition": 0,
-                "saturation": 0,
-                "can_always_eat": true,
-                "eat_seconds": 2147483647
-              }
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "components": {
+            "minecraft:consumable": {
+              "consume_seconds": 2147483647,
+              "animation": "none",
+              "has_consume_particles": false
             }
           }
         }
       }
-    },
-    "rewards": {
-      "function": "mintmc:misc/right_click_manager"
     }
+  },
+  "rewards": {
+    "function": "mintmc:misc/right_click_manager"
+  }
 }
-  
