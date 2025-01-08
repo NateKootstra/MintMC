@@ -53,7 +53,7 @@ give @s beetroot_soup[\
         has_consume_particles : false  \
     },\
     \
-    custom_model_data = 60001  ,\
+    item_model = "mintmc:item/weapon/magic/fireball_staff"  ,\
     \
     max_stack_size = 1  ,\
     \

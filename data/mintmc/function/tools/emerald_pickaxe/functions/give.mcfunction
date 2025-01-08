@@ -28,7 +28,7 @@ give @s beetroot_soup[\
         }'\
     ],\
     \
-    custom_model_data = 30004  ,\
+    item_model = "mintmc:item/tool/emerald_pickaxe"  ,\
     \
     max_stack_size = 1  ,\
     \

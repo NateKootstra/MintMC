@@ -136,8 +136,12 @@ function mintmc:misc/on_first_join/update
 
 function mintmc:misc/villager_rework/update
 
+function mintmc:misc/forgiving_void/living
+
+function mintmc:misc/dimension_teams/update
 
 
+function mintmc:scores/clock/update
 function mintmc:scores/damage_dealt/update
 function mintmc:scores/magic_cooldown/update
 function mintmc:scores/lifetime/update

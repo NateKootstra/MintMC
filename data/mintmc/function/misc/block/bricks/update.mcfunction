@@ -1,0 +1,1 @@
+function mintmc:misc/block/bricks/update_real with storage mintmc:block

@@ -12,7 +12,7 @@ give @s beetroot_soup[\
         }'\
     ],\
     \
-    custom_model_data = 20001  ,\
+    item_model = "mintmc:item/food/burger"  ,\
     \
     max_stack_size = 64  ,\
     \

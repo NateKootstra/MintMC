@@ -7,7 +7,7 @@ give @s beetroot_soup[\
         "bold" : false  \
     }',\
     \
-    custom_model_data = 50001  ,\
+    item_model = "mintmc:item/disc/mint"  ,\
     \
     max_stack_size = 1  ,\
     \

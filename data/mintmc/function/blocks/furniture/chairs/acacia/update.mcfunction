@@ -1,20 +1,3 @@
-execute as @e[\
-    type = interaction  ,\
-    tag = acacia_chair  ,\
-    nbt = {attack:{}}  \
-] at @s align xyz positioned ~0.5 ~1.5 ~0.5 as @e[\
-    type = item_display  ,\
-    tag = acacia_chair  ,\
-    limit = 1  ,\
-    sort = nearest  \
-] run function mintmc:blocks/furniture/chairs/acacia/functions/destroy_block
+function mintmc:blocks/furniture/chairs/acacia/parameters
 
-execute as @e[\
-    type = interaction  ,\
-    tag = acacia_chair  ,\
-] at @s on target run function mintmc:blocks/furniture/chairs/acacia/functions/on_interact
-
-execute as @e[\
-    type = interaction  ,\
-    tag = acacia_chair  \
-] run data remove entity @s interaction
+function mintmc:misc/block/chair/update with storage mintmc:block

@@ -28,7 +28,7 @@ give @s beetroot_soup[\
         }'\
     ],\
     \
-    custom_model_data = 30006  ,\
+    item_model = "mintmc:item/tool/emerald_sword"  ,\
     \
     max_stack_size = 1  ,\
     \

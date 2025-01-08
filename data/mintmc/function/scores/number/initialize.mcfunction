@@ -2,6 +2,7 @@ tellraw @a ["",{"text":"Scoreboard Objective \"","color":"dark_purple"},{"text":
 
 scoreboard objectives add number dummy
 
+scoreboard players set 4 number 4
 scoreboard players set 5 number 5
 scoreboard players set 10 number 10
 scoreboard players set 20 number 20

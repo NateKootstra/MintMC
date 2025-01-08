@@ -1,0 +1,29 @@
+$execute positioned ~ ~ ~ if block ~ ~ ~ blast_furnace{components:{"minecraft:item_model" : "mintmc:block/$(id)"}} run function mintmc:misc/block/$(category)/summon_block with storage mintmc:block 
+$execute positioned ~1 ~ ~ if block ~ ~ ~ blast_furnace{components:{"minecraft:item_model" : "mintmc:block/$(id)"}} run function mintmc:misc/block/$(category)/summon_block with storage mintmc:block 
+$execute positioned ~ ~ ~1 if block ~ ~ ~ blast_furnace{components:{"minecraft:item_model" : "mintmc:block/$(id)"}} run function mintmc:misc/block/$(category)/summon_block with storage mintmc:block 
+$execute positioned ~-1 ~ ~ if block ~ ~ ~ blast_furnace{components:{"minecraft:item_model" : "mintmc:block/$(id)"}} run function mintmc:misc/block/$(category)/summon_block with storage mintmc:block 
+$execute positioned ~ ~ ~-1 if block ~ ~ ~ blast_furnace{components:{"minecraft:item_model" : "mintmc:block/$(id)"}} run function mintmc:misc/block/$(category)/summon_block with storage mintmc:block 
+$execute positioned ~1 ~ ~1 if block ~ ~ ~ blast_furnace{components:{"minecraft:item_model" : "mintmc:block/$(id)"}} run function mintmc:misc/block/$(category)/summon_block with storage mintmc:block 
+$execute positioned ~-1 ~ ~-1 if block ~ ~ ~ blast_furnace{components:{"minecraft:item_model" : "mintmc:block/$(id)"}} run function mintmc:misc/block/$(category)/summon_block with storage mintmc:block 
+$execute positioned ~1 ~ ~-1 if block ~ ~ ~ blast_furnace{components:{"minecraft:item_model" : "mintmc:block/$(id)"}} run function mintmc:misc/block/$(category)/summon_block with storage mintmc:block 
+$execute positioned ~-1 ~ ~1 if block ~ ~ ~ blast_furnace{components:{"minecraft:item_model" : "mintmc:block/$(id)"}} run function mintmc:misc/block/$(category)/summon_block with storage mintmc:block 
+
+$execute positioned ~ ~1 ~ if block ~ ~ ~ blast_furnace{components:{"minecraft:item_model" : "mintmc:block/$(id)"}} run function mintmc:misc/block/$(category)/summon_block with storage mintmc:block 
+$execute positioned ~1 ~1 ~ if block ~ ~ ~ blast_furnace{components:{"minecraft:item_model" : "mintmc:block/$(id)"}} run function mintmc:misc/block/$(category)/summon_block with storage mintmc:block 
+$execute positioned ~ ~1 ~1 if block ~ ~ ~ blast_furnace{components:{"minecraft:item_model" : "mintmc:block/$(id)"}} run function mintmc:misc/block/$(category)/summon_block with storage mintmc:block 
+$execute positioned ~-1 ~1 ~ if block ~ ~ ~ blast_furnace{components:{"minecraft:item_model" : "mintmc:block/$(id)"}} run function mintmc:misc/block/$(category)/summon_block with storage mintmc:block 
+$execute positioned ~ ~1 ~-1 if block ~ ~ ~ blast_furnace{components:{"minecraft:item_model" : "mintmc:block/$(id)"}} run function mintmc:misc/block/$(category)/summon_block with storage mintmc:block 
+$execute positioned ~1 ~1 ~1 if block ~ ~ ~ blast_furnace{components:{"minecraft:item_model" : "mintmc:block/$(id)"}} run function mintmc:misc/block/$(category)/summon_block with storage mintmc:block 
+$execute positioned ~-1 ~1 ~-1 if block ~ ~ ~ blast_furnace{components:{"minecraft:item_model" : "mintmc:block/$(id)"}} run function mintmc:misc/block/$(category)/summon_block with storage mintmc:block 
+$execute positioned ~1 ~1 ~-1 if block ~ ~ ~ blast_furnace{components:{"minecraft:item_model" : "mintmc:block/$(id)"}} run function mintmc:misc/block/$(category)/summon_block with storage mintmc:block 
+$execute positioned ~-1 ~1 ~1 if block ~ ~ ~ blast_furnace{components:{"minecraft:item_model" : "mintmc:block/$(id)"}} run function mintmc:misc/block/$(category)/summon_block with storage mintmc:block 
+
+$execute positioned ~ ~-1 ~ if block ~ ~ ~ blast_furnace{components:{"minecraft:item_model" : "mintmc:block/$(id)"}} run function mintmc:misc/block/$(category)/summon_block with storage mintmc:block 
+$execute positioned ~1 ~-1 ~ if block ~ ~ ~ blast_furnace{components:{"minecraft:item_model" : "mintmc:block/$(id)"}} run function mintmc:misc/block/$(category)/summon_block with storage mintmc:block 
+$execute positioned ~ ~-1 ~1 if block ~ ~ ~ blast_furnace{components:{"minecraft:item_model" : "mintmc:block/$(id)"}} run function mintmc:misc/block/$(category)/summon_block with storage mintmc:block 
+$execute positioned ~-1 ~-1 ~ if block ~ ~ ~ blast_furnace{components:{"minecraft:item_model" : "mintmc:block/$(id)"}} run function mintmc:misc/block/$(category)/summon_block with storage mintmc:block 
+$execute positioned ~ ~-1 ~-1 if block ~ ~ ~ blast_furnace{components:{"minecraft:item_model" : "mintmc:block/$(id)"}} run function mintmc:misc/block/$(category)/summon_block with storage mintmc:block 
+$execute positioned ~1 ~-1 ~1 if block ~ ~ ~ blast_furnace{components:{"minecraft:item_model" : "mintmc:block/$(id)"}} run function mintmc:misc/block/$(category)/summon_block with storage mintmc:block 
+$execute positioned ~-1 ~-1 ~-1 if block ~ ~ ~ blast_furnace{components:{"minecraft:item_model" : "mintmc:block/$(id)"}} run function mintmc:misc/block/$(category)/summon_block with storage mintmc:block 
+$execute positioned ~1 ~-1 ~-1 if block ~ ~ ~ blast_furnace{components:{"minecraft:item_model" : "mintmc:block/$(id)"}} run function mintmc:misc/block/$(category)/summon_block with storage mintmc:block 
+$execute positioned ~-1 ~-1 ~1 if block ~ ~ ~ blast_furnace{components:{"minecraft:item_model" : "mintmc:block/$(id)"}} run function mintmc:misc/block/$(category)/summon_block with storage mintmc:block 
