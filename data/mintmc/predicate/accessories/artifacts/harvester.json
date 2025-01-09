@@ -8,7 +8,7 @@
         "slots": {
           "container.9": {
             "components": {
-              "item_model": "mintmc:item/accessory/artifact/gilded_feather"
+              "item_model": "mintmc:item/accessory/artifact/harvester"
             }
           }
         }
@@ -21,7 +21,7 @@
         "slots": {
           "container.10": {
             "components": {
-              "item_model": "mintmc:item/accessory/artifact/gilded_feather"
+              "item_model": "mintmc:item/accessory/artifact/harvester"
             }
           }
         }
@@ -34,7 +34,7 @@
         "slots": {
           "container.11": {
             "components": {
-              "item_model": "mintmc:item/accessory/artifact/gilded_feather"
+              "item_model": "mintmc:item/accessory/artifact/harvester"
             }
           }
         }

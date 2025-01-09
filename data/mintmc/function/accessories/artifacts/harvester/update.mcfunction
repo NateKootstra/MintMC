@@ -1,0 +1,1 @@
+execute as @a if predicate mintmc:accessories/artifacts/harvester at @s run function mintmc:accessories/artifacts/harvester/functions/on_tick

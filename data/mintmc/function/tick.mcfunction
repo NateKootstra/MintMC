@@ -18,6 +18,7 @@ function mintmc:accessories/emblems/weakness/update
 function mintmc:accessories/emblems/luck/update
 
 function mintmc:accessories/artifacts/gilded_feather/update
+function mintmc:accessories/artifacts/harvester/update
 
 
 
