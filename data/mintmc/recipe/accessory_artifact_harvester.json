@@ -17,7 +17,7 @@
         "count": 1,
         "components": {
             "!food": {},
-            "custom_name": "{ \"text\":\"Auto-Harvester\", \"color\":\"white\", \"italic\":false, \"bold\":false }",
+            "custom_name": "{ \"text\":\"Auto-Harvester\", \"color\":\"red\", \"italic\":false, \"bold\":false }",
             "lore": [
                 "{ \"text\" : \"A magical dual-blade harvesting device.\" }",
                 "{ \"text\" : \"Automatically harvest fully-grown crops.\" }"
