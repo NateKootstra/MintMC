@@ -30,13 +30,7 @@
             "tool": {
                 "default_mining_speed": 1,
                 "damage_per_block": 1,
-                "rules": [
-                    {
-                        "blocks": "#mineable/sword",
-                        "speed": 7,
-                        "correct_for_drops": true
-                    }
-                ]
+                "rules": []
             },
             "attribute_modifiers": {
                 "modifiers": [
