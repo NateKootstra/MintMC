@@ -1,5 +1,5 @@
 give @s beetroot_soup[\
-    !minecraft:food  ,\
+    !minecraft:consumable  ,\
     custom_name = '{\
         "text" : "Auto-Harvester"  ,\
         "color" : "red"  ,\

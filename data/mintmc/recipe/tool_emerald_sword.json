@@ -16,7 +16,7 @@
         "id": "beetroot_soup",
         "count": 1,
         "components": {
-            "!food": {},
+            "!consumable": {},
             "custom_name": "{ \"text\" : \"Emerald Sword\", \"color\" : \"white\", \"italic\" : false, \"bold\" : false }",
             "lore": [
                 "{ \"text\" : \"\" }",
@@ -27,11 +27,6 @@
             "item_model": "mintmc:item/tool/emerald_sword",
             "max_stack_size": 1,
             "enchantment_glint_override": false,
-            "tool": {
-                "default_mining_speed": 1,
-                "damage_per_block": 1,
-                "rules": []
-            },
             "attribute_modifiers": {
                 "modifiers": [
                     {

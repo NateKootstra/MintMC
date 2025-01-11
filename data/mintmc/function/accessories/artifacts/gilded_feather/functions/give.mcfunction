@@ -1,5 +1,5 @@
 give @s beetroot_soup[\
-    !minecraft:food  ,\
+    !minecraft:consumable  ,\
     custom_name = '{\
         "text" : "Gilded Feather"  ,\
         "color" : "red"  ,\
@@ -16,7 +16,7 @@ give @s beetroot_soup[\
         }'\
     ],\
     \
-    custom_model_data = 12001  ,\
+    item_model = "mintmc:item/accessory/artifact/gilded_feather"  ,\
     \
     max_stack_size = 1  ,\
     \

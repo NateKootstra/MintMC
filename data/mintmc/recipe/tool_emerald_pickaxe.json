@@ -16,7 +16,7 @@
         "id": "beetroot_soup",
         "count": 1,
         "components": {
-            "!food": {},
+            "!consumable": {},
             "custom_name": "{ \"text\" : \"Emerald Pickaxe\", \"color\" : \"white\", \"italic\" : false, \"bold\" : false }",
             "lore": [
                 "{ \"text\" : \"\" }",
