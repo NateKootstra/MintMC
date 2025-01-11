@@ -2,7 +2,7 @@ execute as @e[type=villager, nbt={HurtTime:10s}] at @s on attacker if entity @s[
     nbt={\
         SelectedItem:{\
             components: {\
-                "minecraft:custom_model_data" : 30002  \
+                "minecraft:item_model" : "mintmc:item/tool/villager_grabber"  ,\
             }\
         }\
     }\

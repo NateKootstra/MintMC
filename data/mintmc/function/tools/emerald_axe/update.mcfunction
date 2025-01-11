@@ -4,7 +4,7 @@ execute as @a[\
     nbt={\
         SelectedItem:{\
             components: {\
-                "minecraft:custom_model_data" : 30002  \
+                "minecraft:item_model" : "mintmc:item/tool/emerald_axe"  \
             }\
         }\
     }\

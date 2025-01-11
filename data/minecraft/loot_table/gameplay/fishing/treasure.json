@@ -11,9 +11,9 @@
         },
         {
           "type": "minecraft:item",
-        "name": "minecraft:fishing_rod",
+          "name": "minecraft:fishing_rod",
           "functions": [
-          {
+            {
               "function": "minecraft:set_damage",
               "damage": {
                 "type": "minecraft:uniform",
@@ -40,6 +40,10 @@
         },
         {
           "type": "minecraft:item",
+          "name": "mintmc:diamond"
+        },
+        {
+          "type": "minecraft:item",
           "name": "minecraft:nautilus_shell"
         },
         {
@@ -62,4 +66,3 @@
     }
   ]
 }
-  

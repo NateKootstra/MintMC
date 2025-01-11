@@ -9,12 +9,8 @@
         "1"
     ],
     "key": {
-        "0": {
-            "item": "emerald"
-        },
-        "1": {
-            "item": "stick"
-        }
+        "0": "emerald",
+        "1": "stick"
     },
     "result": {
         "id": "beetroot_soup",
@@ -28,7 +24,7 @@
                 "{ \"text\" : \" 5.5 Attack Damage\", \"italic\" : false, \"color\" : \"dark_green\" }",
                 "{ \"text\" : \" 1 Attack Speed\", \"italic\" : false, \"color\" : \"dark_green\" }"
             ],
-            "custom_model_data": 30005,
+            "item_model": "mintmc:item/tool/emerald_shovel",
             "max_stack_size": 1,
             "enchantment_glint_override": false,
             "tool": {

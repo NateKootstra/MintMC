@@ -9,19 +9,15 @@
         "0"
     ],
     "key": {
-        "0": {
-            "item": "bread"
-        },
-        "1": {
-            "item": "cooked_beef"
-        }
+        "0": "bread",
+        "1": "cooked_beef"
     },
     "result": {
         "id": "beetroot_soup",
         "count": 1,
         "components": {
             "custom_name": "{ \"text\" : \"Burger\", \"color\" : \"white\", \"italic\" : false, \"bold\" : false }",
-            "custom_model_data": 20001,
+            "item_model": "mintmc:item/food/burger",
             "max_stack_size": 64,
             "enchantment_glint_override": false,
             "food": {
